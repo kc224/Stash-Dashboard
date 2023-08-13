@@ -1,0 +1,79 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 300ms ease;
+}
+
+.title {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+  color: black;
+  font-weight: lighter;
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 22px;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 5%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+
+.logo > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.menu {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+  width: 60%;
+
+}
+
+.menuIcons {
+  width: 2rem;
+  height: 2rem;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+  background-color: #f89aa354;
+
+}
+
+.active {
+  background-color: var(--activeItem);
+  width: 70%;
+  content: '';
+  padding: 10;
+  padding-right: 0;
+  font-weight: bold;
+  margin-left: 1rem;
+
+}
+
+.menuItem:last-child {
+  position: absolute;
+  bottom: 2rem;
+  width: 2rem;
+}

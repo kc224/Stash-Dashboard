@@ -1,0 +1,24 @@
+.Rightbar {
+  /* background-color: green; */
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+h1{
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+.my-linechart {
+  padding: 1rem;
+}
+
+.chart-title {
+  font-family: 'Inter', sans-serif;
+  display: inline;
+  color: black;
+  font-weight: bold;
+  border-radius: 0.5vh;
+  padding: 0.2rem;
+}

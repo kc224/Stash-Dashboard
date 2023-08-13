@@ -1,0 +1,70 @@
+.Mainbar {
+  /* background-color: green; */
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.label{
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat';
+  width: 14rem;
+  height: 13rem;
+  position: sticky;
+}
+
+.rev {
+  background-color: #cb89ff;
+}
+
+.sal {
+  background-color: #ffa7a6;
+}
+
+.exp {
+  background-color: #ffd077;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  text-align: center;
+  
+}
+
+.number {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem;
+  
+}
+
+
+.progress{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-self: center;
+  :hover {
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1); 
+  }
+}
