@@ -3,6 +3,7 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import './Mainbar.css'
+import Table from '../Table/Table'
 
 const Mainbar = () => {
 
@@ -68,6 +69,8 @@ const Mainbar = () => {
           <p className="number">$4,050</p>
         </div>
       </div>
+
+      <Table />
     </div>
   )
 }
